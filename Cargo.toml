@@ -1,0 +1,9 @@
+[package]
+name = "Lagrange_Interpolation_over_Finite_Fields_in_Rust"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+num-bigint = "0.4"     # For handling large integers
+num-traits = "0.2"     # Provides traits for BigInt like Zero, One, etc.
+num-integer = "0.1"    # For integer operations like gcd
